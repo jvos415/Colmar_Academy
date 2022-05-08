@@ -1,0 +1,977 @@
+*   {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    padding: 24px 24px;
+    display: block;
+    width: 100%;
+    height: 24px;
+}
+
+.site_icon_name {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.site_icon_name p {
+    font-family: 'Murecho', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.site_icon_name img {
+    display: table-cell;
+    vertical-align: middle;
+    transform: scale(1.5);
+    height: 100%;
+    padding: 0px 16px;
+}
+
+.site_icon_name p span {
+    font-family: 'Murecho', sans-serif;
+    font-weight: 350;
+    color: grey;
+    font-size: 24px;
+}
+
+.navagation {
+    height: 100%;
+    display: table;
+    float: right;
+    font-family: 'Inter', sans-serif;
+}
+
+.navagation a li{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px 16px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:focus {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+/* Learn something new section formatting */
+
+.learn_something {
+    background-color: #dcdcdc;
+    font-family: 'Inter', sans-serif;
+    padding: 32px 24px 32px 24px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+}
+
+.banner img {
+    justify-content: center;
+    width: 85%;
+}
+
+.banner_text p {
+    line-height: 25px;
+    padding: 25px 0px;
+}
+
+.banner_text div {
+    justify-content: center;
+    width: 40%;
+}
+
+#button {
+    margin: 0px 70px;
+    padding: 8px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    transition-duration: 700ms;
+}
+
+#button:hover {
+    background-color: black;
+    border-radius: 9px;
+}
+
+/* It doesn't hurt to keep practicing section formatting */
+
+.practicing_section {
+    font-family: 'Inter', sans-serif;
+    padding: 32px 24px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+}
+
+.quote_section img {
+    width: 85%;
+}
+
+.quote_section h1 {
+    padding: 25px 0px;
+    width: 85%;
+}
+
+.quote_section p {
+    line-height: 25px;
+    padding-bottom: 25px;
+    font-style: italic;
+    width: 85%;
+}
+
+.events_section div {
+    display: flex;
+}
+
+.read_more {
+    color: rgb(100, 178, 226);
+    padding-top: 16px;
+}
+
+.orientation_section {
+    border-style: solid;
+    border-color: #dcdcdc;
+    border-width: 0px 0px 0px 1px;
+}
+
+.orientation_section div {
+    display: flex;
+    padding: 32px 12px 0px 0px;
+}
+
+.orientation_section_img img {
+    width: 70%;
+    height: auto;
+    display: flex;
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
+
+.orientation_section_text {
+    align-items: center;
+    width: 40%;
+    padding-bottom: 10px;
+    margin-left: -35px;
+}
+
+.orientation_title {
+    font-size: 19px;
+    font-weight: bolder;
+    padding-bottom: 16px;
+}
+
+/*  Our campus section   */
+
+.our_campus {
+    border-style: solid;
+    border-color: #dcdcdc;
+    border-width: 2px 0px 0px 1px;
+}
+
+.our_campus div {
+    display: flex;
+    width: 40%;
+    padding: 16px 24px 0px 16px;
+}
+
+.our_campus_img img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-bottom: 16px;
+}
+
+.our_campus_text {
+    align-items: center;
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+.campus_title {
+    font-size: 19px;
+    font-weight: bolder;
+    padding-bottom: 16px;
+}   
+
+/*  Guest lecture section  */
+
+.guest_lecture {
+border-style: solid;
+border-color: #dcdcdc;
+border-width: 0px 0px 0px 1px;
+}
+
+.guest_lecture div {
+    display: flex;
+    width: 40%;
+    padding: 16px 24px 0px 16px;
+    background-color: #dcdcdc;
+}
+
+.guest_lecture_img img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-bottom: 16px;
+}
+
+.guest_lecture_text {
+    align-items: center;
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+.guest_lecture_title {
+    font-size: 19px;
+    font-weight: bolder;
+    padding-bottom: 16px;
+}   
+
+/*  Start learning section  */
+
+.start_learning {
+    background-color: #dcdcdc;
+    padding: 32px 72px;
+}
+
+.start_learning h1 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.start_learning_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 32px;
+    padding-top: 32px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Software engineering section */
+
+.SWE {
+    width: 400px;
+    height: auto;
+}
+
+.SWE img {
+    width: 100%;
+    height: auto;
+}
+
+.SWE_text div {
+    width: 400px;
+    height: auto;
+}
+
+.SWE_text {
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    margin-top: -3px;
+}
+
+.SWE p {
+    color: gray;
+}
+
+.SWE_courses {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Computer art section */
+
+.computer_art {
+    width: 400px;
+    height: auto;
+}
+
+.computer_art img {
+    width: 100%;
+    height: auto;
+}
+
+.computer_art_text div {
+    width: 400px;
+    height: auto;
+}
+
+.computer_art_text {
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    margin-top: -3px;
+}
+
+.computer_art p {
+    color: gray;
+}
+
+.computer_art_courses {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Design section */
+
+.design {
+    width: 400px;
+    height: auto;
+}
+
+.design img {
+    width: 100%;
+    height: auto;
+}
+
+.design_text div {
+    width: 400px;
+    height: auto;
+}
+
+.design_text {
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    margin-top: -3px;
+}
+
+.design p {
+    color: gray;
+}
+
+.design_courses {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Data section */
+
+.data {
+    width: 400px;
+    height: auto;
+}
+
+.data img {
+    width: 100%;
+    height: auto;
+}
+
+.data_text div {
+    width: 400px;
+    height: auto;
+}
+
+.data_text {
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    margin-top: -3px;
+}
+
+.data p {
+    color: gray;
+}
+
+.data_courses {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Business section */
+
+.business {
+    width: 400px;
+    height: auto;
+}
+
+.business img {
+    width: 100%;
+    height: auto;
+}
+
+.business_text div {
+    width: 400px;
+    height: auto;
+}
+
+.business_text {
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    margin-top: -3px;
+}
+
+.business p {
+    color: gray;
+}
+
+.business_courses {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Marketing section */
+
+.marketing {
+    width: 400px;
+    height: auto;
+}
+
+.marketing img {
+    width: 100%;
+    height: auto;
+}
+
+.marketing_text div {
+    width: 400px;
+    height: auto;
+}
+
+.marketing_text {
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    margin-top: -3px;
+}
+
+.marketing p {
+    color: gray;
+}
+
+.marketing_courses {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Footer section formatting */
+
+footer {
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    border-style: solid;
+    border-color: #dcdcdc;
+    border-width: 1px 0px 0px 0px;
+    font-family: 'Inter', sans-serif;
+    display: block; 
+    width: 100%;
+    height: 24px;
+}
+
+.left_footer {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.left_footer p {
+    font-size: 16px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}  
+
+.right_footer {
+    height: 100%;
+    display: table;
+    float: right;
+}
+
+.right_footer li{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 16px;
+    padding-right: 16px;
+}
+
+/* Thesis section formatting */
+
+
+.thesis {
+    font-family: 'Inter', sans-serif;
+    padding: 32px 32px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.thesis_flex {
+    font-family: 'Inter', sans-serif;
+    padding: 0px 24px 0px 24px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.reimagine {
+    width: 800px;
+    height: auto;
+}
+
+.reimagine video {
+    width: 100%;
+    height: auto;
+}
+
+.reimagine h3 {
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+.reimagine p {
+    padding-bottom: 32px;
+}
+
+.thesis_right {
+    font-family: 'Inter', sans-serif;
+}
+
+/* fisma section formatting */
+
+.fisma {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    background-color: #dcdcdc;
+    align-items: center;
+}
+
+.fisma_img {
+    width: 150px;
+    height: auto;
+}
+
+.fisma_img img {
+    width: 100%;
+    height: auto;
+}
+
+.fisma_title {
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.fisma_text {
+    color: gray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* NYC section formatting */
+
+.NYC_img {
+    width: 150px;
+    height: auto;
+}
+
+.NYC_img img {
+    width: 100%;
+    height: auto;
+}
+
+.NYC {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    align-items: center;
+}
+
+.NYC_title {
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.NYC_text {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Mobile formatting */
+
+@media only screen and (max-width: 600px) {
+    .site_icon_name {
+        display: none;
+    }
+
+    .navagation {
+        display: none;
+    }
+
+    .navagation_mobile {
+        display: flex;
+        justify-content: space-around;
+        max-width: 600px;
+        padding-top: 18px;
+    }
+
+    .learn_something {
+        display: none;
+    }
+
+    .banner_mobile img {
+        max-width: 600px;
+        height: auto;
+    }   
+
+    header {
+        padding: 0px 0px;
+        height: 64px;
+    }
+
+    .banner_text_mobile {
+        background-color: #dcdcdc;
+        font-family: 'Inter', sans-serif;
+        max-width: 600px;
+        height: auto;
+        padding: 32px 16px;
+        margin-top: -4px;
+        color: rgb(110, 110, 110);
+    }
+
+    .banner_text_mobile h1 {
+        padding-bottom: 32px;
+        font-size: 50px;
+    }
+
+    .banner_text_mobile p {
+        font-size: 30px;
+    }
+
+    #button_mobile p {
+        text-align: center;
+    }
+
+    #button_mobile {
+        font-size: 26px;
+        margin-top: 24px;
+        margin-bottom: 32px;
+        margin-left: 45px;
+        margin-right: 45px;
+        text-align: center;
+        color: white;
+        padding: 15px 15px;
+        background-color: rgb(110, 110, 110);
+        transition-duration: 700ms;
+    }
+
+    #button_mobile:hover {
+        background-color: black;
+        border-radius: 9px;
+    }
+
+    .practicing_section {
+        display: none;
+    }
+
+    .read_more_mobile {
+        color: rgb(100, 178, 226);
+        padding-top: 20px;
+        padding-bottom: 32px;
+        font-size: 22px;
+    }
+
+    .orientation_section_img_mobile {
+        max-width: 600px;
+        height: auto;
+        padding: 16px 16px;
+        transform: scale(0.92);
+    }
+
+    .orientation_section_text_mobile {
+        font-family: 'Inter', sans-serif;
+        max-width: 600px;
+        height: auto;
+        padding-left: 64px;
+        font-size: 24px;
+        color: gray;
+    }
+
+    .orientation_title_mobile {
+        font-size: 32px;
+        font-weight: bold;
+        color: gray;
+        padding-bottom: 16px;
+    }
+
+    .our_campus_img_mobile {
+        max-width: 600px;
+        height: auto;
+        padding: 0px 16px 16px 16px;
+        transform: scale(0.92);
+    }
+
+    .our_campus_text_mobile {
+        font-family: 'Inter', sans-serif;
+        max-width: 600px;
+        height: auto;
+        padding-left: 64px;
+        font-size: 24px;
+        color: gray;
+    }
+
+    .campus_title_mobile {
+        font-size: 32px;
+        font-weight: bold;
+        color: gray;
+        padding-bottom: 16px;
+    }
+
+    .guest_lecture_img_mobile {
+        max-width: 600px;
+        height: auto;
+        padding: 0px 16px 16px 16px;
+        transform: scale(0.92);
+    }
+
+    .guest_lecture_text_mobile {
+        font-family: 'Inter', sans-serif;
+        max-width: 600px;
+        height: auto;
+        padding-left: 64px;
+        font-size: 24px;
+        color: gray;
+    }
+
+    .guest_lecture_title_mobile {
+        font-size: 32px;
+        font-weight: bold;
+        color: gray;
+        padding-bottom: 16px;
+    }
+
+    .start_learning {
+        display: none;
+    }
+
+    .start_learning_mobile {
+        font-family: 'Inter', sans-serif;
+        padding: 32px 16px;
+        border-style: solid;
+        border-color: #dcdcdc;
+        border-width: 1px;
+    }
+
+    .start_learning_mobile h1 {
+        font-size: 42px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+    }
+
+    .SWE_mobile {
+        font-size: 28px;
+        color: gray;
+        background-color: #dcdcdc;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        padding-left: 16px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+        transition-duration: 700ms;
+    }
+
+    .SWE_mobile:hover {
+        background-color: black;
+        color: white;
+        border-radius: 9px;
+    }
+
+    .computer_art_mobile {
+        font-size: 28px;
+        color: gray;
+        background-color: #dcdcdc;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        padding-left: 16px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+        transition-duration: 700ms;
+    }
+
+    .computer_art_mobile:hover {
+        background-color: black;
+        color: white;
+        border-radius: 9px;
+    }
+
+    .design_mobile {
+        font-size: 28px;
+        color: gray;
+        background-color: #dcdcdc;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        padding-left: 16px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+        transition-duration: 700ms;
+    }
+
+    .design_mobile:hover {
+        background-color: black;
+        color: white;
+        border-radius: 9px;
+    }
+
+    .data_mobile {
+        font-size: 28px;
+        color: gray;
+        background-color: #dcdcdc;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        padding-left: 16px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+        transition-duration: 700ms;
+    }
+
+    .data_mobile:hover {
+        background-color: black;
+        color: white;
+        border-radius: 9px;
+    }
+
+    .business_mobile {
+        font-size: 28px;
+        color: gray;
+        background-color: #dcdcdc;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        padding-left: 16px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+        transition-duration: 700ms;
+    }
+
+    .business_mobile:hover {
+        background-color: black;
+        color: white;
+        border-radius: 9px;
+    }
+
+    .marketing_mobile {
+        font-size: 28px;
+        color: gray;
+        background-color: #dcdcdc;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        padding-left: 16px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+        transition-duration: 700ms;
+    }
+
+    .marketing_mobile:hover {
+        background-color: black;
+        color: white;
+        border-radius: 9px;
+    }
+
+    .thesis {
+        display: none;
+    }
+
+    .thesis_flex {
+        display: none;
+    }
+
+    .thesis_mobile {
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        padding-top: 24px;
+        padding-bottom: 16px;
+    }
+
+    .reimagine_mobile video {
+        width: 600px;
+        height: auto;
+        padding-bottom: 24px;
+    }
+
+    footer {
+        border-style: hidden;
+    }
+
+    .left_footer {
+        display: none;
+    }
+
+    .right_footer {
+        display: none;
+    }
+
+    .left_footer_mobile {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        text-align: center;
+    }
+}
+
+/* Mobile specific items that need to be removed for normal site */
+
+@media only screen and (min-width: 601px) {
+    .navagation_mobile {
+        display: none;
+    }
+
+    .learn_something_mobile {
+        display: none;
+    }
+
+    .practicing_section_mobile {
+        display: none;
+    }
+
+    .start_learning_mobile {
+        display: none;
+    }
+
+    .thesis_mobile {
+        display: none;
+    }
+
+    .thesis_flex_mobile {
+        display: none;
+    }
+
+    .left_footer_mobile {
+        display: none;
+    }
+}
